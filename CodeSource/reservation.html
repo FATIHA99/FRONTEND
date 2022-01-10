@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Le site officiel de restauration de l'école YouCode / Si vous etes actuellement  un étiduant  YouCode creer votre compte et commencer par reservée votre plat  "> 
+    <meta name="keywords" content="Repat , manger , plats , reservation">
+    <title>Page Reservation</title>
+    <link rel="stylesheet" href="styleReser-admin.css">
+    <link rel="icon" href="Ressources/ICON.png">
+    <style>
+         body {
+        color: rgba(255, 255, 255, 0.719);
+        font-family: "Karla", sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="Reserv-all">
+        <header class="Reserv-header">
+            <div>
+                <img class="logo" src="Ressources/logo.png" alt="Webpage's Logo">
+            </div>
+            <ul>
+                <li><a href="PageMenu.html">MENU</a></li>
+                <li><a href="PageFeedBck.html">EVALUEZ NOUS</a></li>
+                <li><a href="#">DECONNEXION</a></li>
+            </ul>
+        </header> 
+        <main>
+        <section class="Reserv-section1">
+            <div class="section1_ section1_container1">
+                <h1 class="title title1">PAGE</h1>
+                <h1 class="title">RESERVATION</h1>
+                <p class="para">
+                    Ici Vous Retrouverez Tous <br> les Reservations  Par <br> Jour Des étudiants
+                </p>
+            </div> 
+            <div class="section1_ section1_container2">
+                <label for="date-time">.</label>
+               <input type="date" name="date" id="date-time">
+                <table>
+                    <tr>
+                        <th class="border">Plat</th>
+                        <th class="border">Reservation  </th>
+                    </tr>
+                    <tr>
+                        <td class="border"><img class="couscous" src="Ressources/couscous.png" alt="Couscous image">
+                            <span class="h6_1">COUSCOUS</span>
+                        </td>
+                        <td class="border">
+                            <h2>Nombre de reservation</h2>
+                            <label for="button1">.</label>
+                            <input class="input" type="number" value="100" id="button1" readonly>
+                            <button class="button" type="submit">Inspect</button>
+                        
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="border"><img class="plates tajine" src="Ressources/tajine.png" alt="Tajine image">
+                            <span class="h6_1">Tajine</span>
+                        </td>
+                        
+                        <td class="border">
+                            <h2>Nombre de reservation</h2>
+                            <label for="button2">.</label>
+                            <input class="input" type="number" value="90"  id="button2" readonly >
+                            <button class="button" type="submit">Inspect</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            </section>
+            <section class="Reserv-section2">
+                <div class="section2_container">
+                    
+                        <div class="platebox"><h3>COUSCOUS</h3></div>
+                    
+                    <div class="section2_cont">
+                        <h3>Image d'etudiant</h3>
+                        <h3>Nom d'etudiant</h3>
+                    </div>
+                   
+                    <div class="section2_cont">
+                        <img class="studentsImages" src="Ressources/simo.jpg" alt="Mohamed's Image">
+                        <h4 class="names">Mohamed</h4>
+                    </div>
+                    <div class="section2_cont">
+                        <img class="studentsImages" src="Ressources/fatiimg.jpg" alt="fatiha's image">
+                        <h4 class="names">Fatimzehra</h4>
+                    </div>
+                </div>    
+            </section>    
+            <section class="Reserv-section2">
+                <div class="section2_container">
+                    
+                        <div class="platebox"><h3>Tajine</h3></div>
+                    
+                    <div class="section2_cont">
+                        <h3>Image d'etudiant</h3>
+                        <h3>Nom d'etudiant</h3>
+                    </div>
+                   
+                    <div class="section2_cont">
+                        <img class="studentsImages" src="Ressources/odin.jpg" alt="Odin's Image">
+                        <h4 class="names">Mohamed</h4>
+                    </div>
+                    <div class="section2_cont">
+                        <img class="studentsImages" src="Ressources/fatihaimg.jpg" alt="fatiha's image">
+                        <h4 class="names">Fatiha</h4>
+                    </div>
+                </div>    
+            </section>    
+       
+        </main>
+        </div>
+
+    
+</body>
+</html>
